@@ -1,3 +1,2 @@
-# If you got your way till here, then let's have a look to the repository.
-
-# Maybe you are here to kang codes. Still, Come take a look 😉
+# 𝐒𝖒ø𝖐𝖊𝖗 𝐁ø𝖙
+https://telegra.ph/file/d6f210ec905d3eb385410.jpg

@@ -9,11 +9,11 @@ async def pong(hell):
     if hell.fwd_from:
         return
     start = datetime.datetime.now()
-    event = await eor(hell, "`·.·★ ℘ıŋɠ ★·.·´")
+    event = await eor(hell, "`·.·✰ 𝕻𝖎𝖓𝖌 ✰·.·´")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"╰•★★  ℘ơŋɠ ★★•╯\n\n    ⚘  `{ms}`\n    ⚘  __**Oɯɳҽɾ**__ **:**  {hell_mention}"
+        f"╰•✰✰  ℘𝖔𝖓𝖌 ✰✰•╯\n\n    ๛  `{ms}`\n    ๛  __**𝕺𝖜𝖓𝖊𝖗**__ **:**  {hell_mention}"
     )
 
 

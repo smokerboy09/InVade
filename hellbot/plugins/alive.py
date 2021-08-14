@@ -11,7 +11,7 @@ from . import *
 
 hell_pic = Config.ALIVE_PIC or "https://telegra.ph/file/d6f210ec905d3eb385410.jpg"
 alive_c = f"__**🔥🔥𝕊𝕄𝕆𝕂𝔼ℝ 𝔹𝕆𝕋 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼🔥🔥**__\n\n"
- ┏━━━━━━━━━━━━━━
+ ┏━━━━━━━━━━━━━━━━
  ┣ ✪ 🅼**ᴀꜱᴛᴇʀ** ✪
  ┣
  ┣『 {hell_mention} 』

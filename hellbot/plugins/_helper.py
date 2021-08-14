@@ -7,11 +7,10 @@ from telethon.errors.rpcerrorlist import BotMethodInvalidError as dedbot
 from . import *
 
 msg = f"""
-**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡**
+**⚡ SMØKER-BØT ØN FIRE ⚡**
 
-  •        [📑 Repo 📑](https://github.com/The-HellBot/HellBot)
-  •        [🚀 Deploy 🚀](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThe-HellBot%2FHellBot&template=https%3A%2F%2Fgithub.com%2Fthe-hellbot%2Fhellbot)
-
+  •        [📑 Repo 📑](https://github.com/smokerboy09/InVade)
+  
   •  ©️ {hell_channel} ™
 """
 botname = Config.BOT_USERNAME

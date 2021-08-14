@@ -150,7 +150,7 @@ async def upstream(event):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     if changelog == "" and not force_update:
         await event.edit(
-            "\n**😎 Hêllẞø† is UP-TO-DATE.**"
+            "\n**😎 SMØKÈR-BØT is UP-TO-DATE.**"
             f"\n\n**Version :**  {hell_ver}"
             f"\n**Owner :**  {hell_mention}"
             f"\n**Git Branch :**  {UPSTREAM_REPO_BRANCH}\n"
@@ -163,7 +163,7 @@ async def upstream(event):
 
     if force_update:
         await event.edit(
-            "`Force-Updating Hêllẞø†. Please wait...`"
+            "`Force-Updating Smøkèr-Bøt. Please wait...`"
         )
     if conf == "now":
         await event.edit("`Update In Progress! Please Wait....`")

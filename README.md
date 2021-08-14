@@ -14,17 +14,18 @@
   <b>A Smooth & Fast Telegram Userbot Based On Telethon Bot Library.</b>
 </h3>
 
-------
+   -----
+# Telegram 🏪
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/smoker_ki_janta)
+- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/SMOKER_UB)
+-----
+
 ## Deploy To Heroku
 - Get All The Necessary Variables And Deploy To Heroku.
 - Some Mandatory Variables Are listed [Here](#Variables)
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/smokerboy09/HellBot/blob/main)
 
 ------
-## Telegram 🏪
-- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/smoker_ki_janta)
-- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/SMOKER_UB)
-
 
 ## 𝚁𝙴𝚀𝚄𝙸𝚁𝙴𝙼𝙴𝙽𝚃𝚂
 

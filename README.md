@@ -7,7 +7,7 @@
 </p>
 
 <h6 align="center">
-  <b>⚡ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴜꜱᴇʀʙᴏᴛ ⚡</b>
+  <b>⚡ ʍơʂɬ ℘ơῳɛṙʄųƖƖ ųʂɛṙცơt ⚡</b>
 </h6>
 
 <h3 align="center">
@@ -21,10 +21,6 @@
 ## Telegram 🏪
 - [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/smoker_ki_janta)
 - [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/SMOKER_UB)
-
-𝚐
-
-
 
 
 ## 𝚁𝙴𝚀𝚄𝙸𝚁𝙴𝙼𝙴𝙽𝚃𝚂
@@ -46,24 +42,15 @@
 - Fill API ID, API HASH, Phone number (with country code).
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
-- Your Phoenix Session Will be saved in your Telegram Saved Message.
-- [![Replit](https://telegra.ph/file/62373cd32c90fabefee7c.jpg)](https://replit.com/@garimarathore/Phoenix?v=1)
+- Your SMØKER-BØT Session Will be saved in your Telegram Saved Message.
+- [![Replit](https://telegra.ph/file/c7894fdf411dcb59305ea.jpg)](https://replit.com/@smokerboy09/HellBot-1#main.py)
 
-### Terminal
-- Open the terminal.
-- Paste this code.
 
-`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/garima-rathore/Probable-garuda/master/phoenix_string.py && python3 phoenix_string.py`
-- Fill API ID, API HASH, Phone number (with country code).
-- Paste the OTP received on Telegram.
-- If You have Enabled 2-Step Verification then fill your password.
-- Note that Termux Doesn't show passwords when filled. Just paste your password and hit enter.
-- Your Phoenix Userbot Session Will be saved in your Telegram Saved Message.
 
 ------
-## Disclaimer
+## 𝙳𝙴𝚂𝙲𝙻𝙰𝙸𝙼𝙴𝚁
 - We won't be responsible for any kind of ban due to this bot.
-- Phoenix was made for fun purpose and to make group management easier.
+- Smoker was made for fun purpose and to make group management easier.
 - It's your concern if you spam and gets your account banned.
 - Also, Forks won't be entertained.
 - If you fork this repo and edit plugins, it's your concern for further updates.
@@ -74,6 +61,6 @@
 ## Credits
 
 
-- 💖 My Team Members For Supporting Me.
+-
 
 ------

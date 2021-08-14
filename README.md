@@ -57,9 +57,3 @@
 - In short, Fork At Your Own Risk.
 
 ------
-## Credits
-
-
--
-
-------

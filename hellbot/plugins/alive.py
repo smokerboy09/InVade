@@ -11,31 +11,11 @@ from . import *
 
 hell_pic = Config.ALIVE_PIC or "https://telegra.ph/file/d6f210ec905d3eb385410.jpg"
 alive_c = f"__**🔥🔥𝕊𝕄𝕆𝕂𝔼ℝ 𝔹𝕆𝕋 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼🔥🔥**__\n\n"
-
-×➤ 🅼**ᴀꜱᴛᴇʀ** ✪
-×➤ 『 {hell_mention} 』
-
-×➤ **𝐓ᴇʟᴇᴛʜᴏɴ 𝐕ᴇʀꜱɪᴏɴ** 
-      ┗ ⌜{tel_ver}⌟
-
-×➤ **𝐏ᴏɪꜱᴏɴ 𝐕ᴇʀꜱɪᴏɴ**
-      ┗ ⌜{hell_ver}⌟
-
-×➤ **𝐒ᴜᴅᴏ** 
-      ┗ ⌜{is_sudo}⌟
-
-×➤ **𝐂ʜᴀɴɴᴇʟ** 
-     ┗  ⌜ [ᴊᴏɪɴ](https://t.me/shinchan_the_h4ch3r) ⌟
-
-×➤ **[𝐂ʀᴇᴀᴛᴏʀ]**(Https://t.me/me_izz_shreef)
-
-"""
-
-# MADE BY SMOKER BOY ( @SMOKER_XD )
- 
-# PIRO 
-
-#HMM
+alive_c += f"__↼ Øwñêr ⇀__ : 『 {hell_mention} 』\n\n"
+alive_c += f"•♦• Telethon     :  `{tel_ver}` \n"
+alive_c += f"•♦• SmøkerBøt      :  __**{hell_ver}**__\n"
+alive_c += f"•♦• Sudo            :  `{is_sudo}`\n"
+alive_c += f"•♦• Channel      :  {hell_channel}\n"
 
 #-------------------------------------------------------------------------------
 

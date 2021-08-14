@@ -20,10 +20,10 @@ from . import *
 hell_row = Config.BUTTONS_IN_HELP
 hell_emoji = Config.EMOJI_IN_HELP
 hell_pic = Config.PMPERMIT_PIC or "https://telegra.ph/file/d6f210ec905d3eb385410.jpg"
-stm_pmp = Config.CUSTOM_PMPERMIT
+cstm_pmp = Config.CUSTOM_PMPERMIT
 ALV_PIC = Config.ALIVE_PIC
-help_pic = Config.HELP_PIC or "https://telegra.ph/file/d6f210ec905d3eb385410.jpg"
-M_WARNS = {}
+
+PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
 mybot = Config.BOT_USERNAME

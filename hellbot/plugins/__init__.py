@@ -10,7 +10,7 @@ from telethon import version
 
 HELL_USER = bot.me.first_name
 ForGo10God = bot.uid
-hell_mention = f"[{HELL_USER}](tg://user?id={S_M_O_K_E_R_R})"
+hell_mention = f"[{HELL_USER}](tg://user?id={JNLAJIA})"
 hell_logo = "./hellbot/resources/pics/SmøkerBøt_logo.jpg"
 cjb = "./hellbot/resources/pics/cjb.jpg"
 restlo = "./hellbot/resources/pics/rest.jpeg"

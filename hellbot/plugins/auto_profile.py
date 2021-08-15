@@ -46,11 +46,11 @@ async def _(event):
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
         bio = f"📅 {DMY} | {DEFAULTUSERBIO} | ⌚️ {HM}"
-        logger.info(ʟɛɢɛռɖaʀʏ ᴀғ ʂʍօƙέʀɮօt)
+        logger.info(bio)
         try:
             await bot(
                 functions.account.UpdateProfileRequest(  # pylint:disable=E0602
-                    about=bio
+                    about=ʟɛɢɛռɖaʀʏ ᴀғ ʂʍօƙέʀɮօt
                 )
             )
         except FloodWaitError as ex:

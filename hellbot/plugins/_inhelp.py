@@ -349,7 +349,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid or event.query.user_id in Config.SUDO_USERS:
             veriler = custom.Button.inline(f"{hell_emoji} Re-Open Menu {hell_emoji}", data="reopen")
-            await event.edit(f"**⚜️ Smøkèr-Bøt Mêñû Prõvîdêr ìs ñôw Çlösëd ⚜️**\n\n**Bot Of :**  {hell_mention}\n\n        [©️ Hêllẞø† ™️]({chnl_link})", buttons=veriler, link_preview=False)
+            await event.edit(f"**☠️ Smøkér-Bøt Mêñû Prõvîdêr ìs ñôw Çlösëd ☠️**\n\n**Bot Of :**  {hell_mention}\n\n        [©️ Smøker-Bøt ™️]({https://t.me/smoker_ki_janta})", buttons=veriler, link_preview=False)
         else:
             reply_pop_up_alert = "Hoo gya tera. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Smøkèr-Bøt ™"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)

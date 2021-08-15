@@ -17,7 +17,7 @@ async def download(event):
         await eod(event, "`Please ADD Proper Access Token from github.com`")
         return
     if Config.GIT_REPO_NAME is None:
-        await eod(event, "`Please ADD Proper Github Repo Name of HellBot`")
+        await eod(event, "`Please ADD Proper Github Repo Name of SmokerBot`")
         return
     hellbot = await eor(event, "Processing ...")
     if not os.path.isdir(GIT_TEMP_DIR):

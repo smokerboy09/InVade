@@ -197,16 +197,16 @@ async def muth(hell):
         replied_user = await hell.client(GetFullUserRequest(hell.chat_id))
         if is_muted(hell.chat_id, hell.chat_id):
             return await hell.edit(
-                "Nigga is already muted here 🥴"
+                "Randi is already muted here 🥴"
             )
         if hell.chat_id == ForGo10God:
-            return await eod(hell, "Nashe me hai kya lawde 🥴")
+            return await eod(hell, "Nashe me hai kya Gandu 🥴")
         try:
             mute(hell.chat_id, hell.chat_id)
         except Exception as e:
             await eor(hell, f"**Error **\n`{str(e)}`")
         else:
-            await eor(hell, "**Chup Reh Lawde 🥴\n`**｀-´)⊃━☆ﾟ.*･｡ﾟ **`")
+            await eor(hell, "**Chup Reh Madarxhood 🥴\n`**｀-´)⊃━☆ﾟ.*･｡ﾟ **`")
     else:
         hellevent = await eor(hell, "`Muting...`")
         input_str = hell.pattern_match.group(1)
@@ -227,7 +227,7 @@ async def muth(hell):
         else:
             return await eod(hellevent, "I Need a user to mute!!", 5)
         if userid == ForGo10God:
-            return await eod(hellevent, "Nashe me hai kya lawde", 5)
+            return await eod(hellevent, "Nashe me hai kya Gandu", 5)
         if str(userid) in DEVLIST:
             return await eod(hellevent, "**Error Muting God**", 7)
         try:
@@ -239,7 +239,7 @@ async def muth(hell):
             )
             await eor(
                 hellevent,
-                f"**Successfully Muted**  [{name}](tg://user?id={userid}) **in**  `{chat.title}`",
+                f"**SUCCESSFULLY MUTED🖕**  [{name}](tg://user?id={userid}) **in**  `{chat.title}`",
             )
         except BaseException as be:
             await eor(hellevent, f"`{str(be)}`")
@@ -268,7 +268,7 @@ async def nomuth(evn):
             await eor(evn, f"**Error **\n`{str(e)}`")
         else:
             await eor(evn,
-                "Abb boll bsdk."
+                "Abb boll Madarxhood."
             )
     else:
         hellevent = await eor(evn, "`Unmuting...`")
@@ -298,7 +298,7 @@ async def nomuth(evn):
             )
             await eor(
                 hellevent,
-                f"**Successfully Unmuted**  [{name}](tg://user?id={userid}) **in**  `{chat.title}`",
+                f"**SUCCESFULLY UNMUTED😉**  [{name}](tg://user?id={userid}) **in**  `{chat.title}`",
             )
         except BaseException as be:
             await eor(hellevent, f"`{str(be)}`")
@@ -408,7 +408,7 @@ async def pin(msg):
     except BadRequestError:
         await eor(msg, NO_PERM)
         return
-    hmm = await eor(msg, f"📌 **Pinned  [this message](https://t.me/c/{ms_l.id}/{to_pin})  Successfully!**")
+    hmm = await eor(msg, f"📌 **PINNED  [this message](https://t.me/c/{ms_l.id}/{to_pin})  Successfully!**")
     user = await get_user_from_id(msg.sender_id, msg)
     await msg.client.send_message(
         lg_id,
@@ -450,7 +450,7 @@ async def kick(usr):
         return
     if reason:
         await hellevent.edit(
-            f"**🏃 Kicked**  [{user.first_name}](tg://user?id={user.id})'s **Butt from** `{usr.chat.title}!`\nReason: `{reason}`"
+            f"**🏃 KICKED**  [{user.first_name}](tg://user?id={user.id})'s **Butt from** `{usr.chat.title}!`\nReason: `{reason}`"
         )
     else:
         await hellevent.edit(f"**🏃 Kicked**  [{user.first_name}](tg://user?id={user.id})'s **Butt from** `{usr.chat.title}!`")

@@ -160,9 +160,9 @@ async def load(event):
         )
 
 CmdHelp("core").add_command(
-  "install", "<reply to a .py file>", "Installs the replied python file if suitable to Hêllẞø†'s codes."
+  "install", "<reply to a .py file>", "Installs the replied python file if suitable to Smøkèr-Bø†'s codes."
 ).add_command(
-  "uninstall", "<plugin name>", "Uninstalls the given plugin from Hêllẞø†. To get that again do .restart", "uninstall alive"
+  "uninstall", "<plugin name>", "Uninstalls the given plugin from Smøkèr-Bøt. To get that again do .restart", "uninstall alive"
 ).add_command(
   "load", "<plugin name>", "Loades the unloaded plugin to your userbot", "load alive"
 ).add_command(
@@ -170,7 +170,7 @@ CmdHelp("core").add_command(
 ).add_command(
   "send", "<file name>", "Sends the given file from your userbot server, if any.", "send alive"
 ).add_command(
-  "cmds", None, "Gives out the list of modules in HellBot."
+  "cmds", None, "Gives out the list of modules in Smoker-Bot."
 ).add_warning(
   "❌ Install External Plugin On Your Own Risk. We won't help if anything goes wrong after installing a plugin."
 ).add()

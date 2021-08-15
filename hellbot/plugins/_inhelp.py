@@ -199,8 +199,8 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
 
         else:
             result = builder.article(
-                "@shinchan_the_hacker",
-                text="""**Hey! This is [☠ρøıƨøп ʙᴏᴛ☠](https://t.me/shinchan_the_hacker) \nYou can know more about me from the links given below 👇**""",
+                "@smoker_ki_janta",
+                text="""**Hey! This is [☠Smøkèr ʙᴏᴛ☠](https://t.me/smoker_ki_janta) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
                         custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/smoker_ki_janta"),

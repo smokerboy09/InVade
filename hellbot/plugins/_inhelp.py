@@ -226,7 +226,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/smokerboy09/InVade"),
+                            "✨ REPO ✨", "https://github.com/smokerboy09/SmokerBot"),
                         custom.Button.url
                     (
                             "🔰 TUTORIAL 🔰", "SOON"

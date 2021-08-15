@@ -167,7 +167,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result = builder.document(
                     ALV_PIC,
                     text=he_ll,
-                    title="HellBot Alive",
+                    title="Smøkèr-Bøt Alive",
                     buttons=alv_btn,
                     link_preview=False,
                 )
@@ -341,7 +341,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™"
+                reply_pop_up_alert = "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Smøkèr-Bøt ™"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         
 
@@ -371,7 +371,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             )
         else:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Smøkèr-Bøt ™",
                 cache_time=0,
                 alert=True,
             )

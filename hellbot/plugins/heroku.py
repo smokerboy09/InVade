@@ -32,7 +32,7 @@ async def restart(event):
         app = Heroku.apps()[HEROKU_APP_NAME]
         app.restart()
     else:
-        execl(executable, executable, "bash", "HellBot")
+        execl(executable, executable, "bash", "SmokerBot")
 
 
 @bot.on(hell_cmd(pattern="restart$"))
@@ -44,7 +44,7 @@ async def re(hell):
     if HEROKU_API_KEY:
         await restart(event)
     else:
-        await event.edit("Please Set Your `HEROKU_API_KEY` to restart Hêllẞø†")
+        await event.edit("Please Set Your `HEROKU_API_KEY` to restart SmøkèrBøt")
 
 
 @bot.on(hell_cmd(pattern="shutdown$"))
@@ -54,7 +54,7 @@ async def down(hell):
         return
     event = await eor(hell, "`Turing Off Heroku Dynos...`")
     await asyncio.sleep(2)
-    await event.edit("**[ ⚠️ ]** \n**Hêllẞø† Dynos is now turned off. Manually turn it on to start again.**")
+    await event.edit("**[ ⚠️ ]** \n**SmøkèrBøt Dynos is now turned off. Manually turn it on to start again.**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:

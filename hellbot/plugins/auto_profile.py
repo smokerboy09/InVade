@@ -45,7 +45,7 @@ async def _(event):
     while True:
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
-        bio = f"📅 {DMY} | ("ʟɛɢɛռɖaʀʏ ᴀғ ʂʍօƙέʀɮօt") | ⌚️ {HM}"
+        bio = f"📅 {DMY} | {DEFAULTUSERBIO} | ⌚️ {HM}"
         logger.info(bio)
         try:
             await bot(

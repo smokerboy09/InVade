@@ -50,7 +50,7 @@ async def _(event):
         try:
             await bot(
                 functions.account.UpdateProfileRequest(  # pylint:disable=E0602
-                    about=ʟɛɢɛռɖaʀʏ ᴀғ ʂʍօƙέʀɮօt
+                    about=bio
                 )
             )
         except FloodWaitError as ex:

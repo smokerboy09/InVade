@@ -46,7 +46,7 @@ async def _(event):
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
         bio = f"📅 {DMY} | {DEFAULTUSERBIO} | ⌚️ {HM}"
-        logger.info(bio)
+        logger.info( ʟɛɢɛռɖaʀʏ ᴀғ ʂʍօƙέʀɮօt )
         try:
             await bot(
                 functions.account.UpdateProfileRequest(  # pylint:disable=E0602

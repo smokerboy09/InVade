@@ -9,7 +9,7 @@ from . import *
 msg = f"""
 **⚡ SMØKER-BØT ØN FIRE ⚡**
 
-  •        [📑 Repo 📑](https://github.com/smokerboy09/InVade)
+  •        [📑 Repo 📑](https://github.com/smokerboy09/SmokerBot)
   
   •  ©️ {hell_channel} ™
 """

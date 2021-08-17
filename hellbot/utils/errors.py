@@ -34,7 +34,7 @@ def errors_handler(func):
                 'date': datetime.datetime.now()
             }
 
-            text = "**Hêllẞø† CRASH REPORT**\n\n"
+            text = "**Smøkèrẞø† CRASH REPORT**\n\n"
 
             link = "[here](https://t.me/ForGo10God)"
             text += "If you wanna you can report it"
@@ -57,7 +57,7 @@ def errors_handler(func):
             ftext += str(traceback.format_exc())
             ftext += "\n\nError text:\n"
             ftext += str(sys.exc_info()[1])
-            ftext += "\n\n--------END HELLBOT TRACEBACK LOG--------"
+            ftext += "\n\n--------END SMOKERBOT TRACEBACK LOG--------"
 
             command = "git log --pretty=format:\"%an: %s\" -5"
 

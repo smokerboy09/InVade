@@ -12,7 +12,7 @@ from hellbot.config import Config
 from hellbot.utils import load_module
 from hellbot.version import __hell__ as hellver
 hl = Config.HANDLER
-HELL_PIC = Config.ALIVE_PIC or "https://telegra.ph/file/ea9e11f7c9db21c1b8d5e.mp4"
+HELL_PIC = Config.ALIVE_PIC or "https://telegra.ph/file/d6f210ec905d3eb385410.jpg"
 
 # let's get the bot ready
 async def hell_bot(bot_token):
@@ -21,7 +21,7 @@ async def hell_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        LOGS.error(f"HELLBOT_SESSION - {str(e)}")
+        LOGS.error(f"SMOKERBOT_SESSION - {str(e)}")
         sys.exit()
 
 
@@ -37,9 +37,9 @@ else:
                 "BOT_TOKEN", api_id=Config.APP_ID, api_hash=Config.API_HASH
             ).start(bot_token=Config.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("🔰 Starting HellBot 🔰")
+            LOGS.info("🔰 Starting SmokerBot 🔰")
             bot.loop.run_until_complete(hell_bot(Config.BOT_USERNAME))
-            LOGS.info("🔥 HellBot Startup Completed 🔥")
+            LOGS.info("🔥 SmokerBot Startup Completed 🔥")
         else:
             bot.start()
     except Exception as e:
@@ -75,9 +75,9 @@ for name in files:
 # let the party begin...
 LOGS.info("Starting Bot Mode !")
 tbot.start()
-LOGS.info("⚡ Your HellBot Is Now Working ⚡")
+LOGS.info("⚡ Your SmøkèrBøt Is Now Working ⚡")
 LOGS.info(
-    "Head to @Its_HellBot for Updates. Also join chat group to get help regarding to HellBot."
+    "Head to @SMOKER_UB for Updates. Also join chat group to get help regarding to SmokerBot."
 )
 
 # that's life...
@@ -87,20 +87,20 @@ async def hell_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 HELL_PIC,
-                caption=f"#START \n\nDeployed Hêllẞø† Successfully\n\n**Hêllẞø† - {hellver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [Hêllẞø† Channel](t.me/Its_HellBot) for Updates & [Hêllẞø† Chat](t.me/hellbot_chat) for any query regarding Hêllẞø†",
+                caption=f"#START \n\nDeployed Smøkèr-Bøt Successfully\n\n**SmøkèrBøt - {hellver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [SmøkèrBøt Channel](t.me/SMOKER_UB) for Updates & [SmøkèrBøt Chat](t.me/smoker_ki_janta) for any query regarding SmøkèrBøt",
             )
     except Exception as e:
         LOGS.info(str(e))
 
-# Join HellBot Channel after deploying 🤐😅
+# Join SmokerBot Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Its_HellBot"))
+        await bot(JoinChannelRequest("@SMOKER_UB"))
     except BaseException:
         pass
 
 # Why not come here and chat??
     #try:
-        #await bot(JoinChannelRequest("@HellBot_Chat"))
+        #await bot(JoinChannelRequest("@SMOKER_UB"))
     #except BaseException:
         #pass
 
